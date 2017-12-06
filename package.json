@@ -1,17 +1,17 @@
 {
-  "name": "webpack-library-starter",
-  "version": "1.0.2",
-  "description": "Produce universal library with webpack and es6",
-  "main": "lib/library.js",
+  "name": "jssdk",
+  "version": "0.0.1",
+  "description": "appcan jssdk",
+  "main": "lib/appcan.js",
   "scripts": {
-    "build": "webpack --env dev && webpack --env build && npm run test",
+    "build": "webpack --env dev && webpack --env build",
     "dev": "webpack --progress --colors --watch --env dev",
     "test": "mocha --require babel-core/register --colors ./test/*.spec.js",
     "test:watch": "mocha --require babel-core/register --colors -w ./test/*.spec.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/krasimir/webpack-library-starter.git"
+    "url": "https://github.com/Lover103/webpack-library-starter.git"
   },
   "keywords": [
     "webpack",
@@ -22,12 +22,12 @@
     "umd",
     "commonjs"
   ],
-  "author": "Krasimir Tsonev",
+  "author": "quan.shi@zymobi.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/krasimir/webpack-library-starter/issues"
+    "url": "https://github.com/Lover103/webpack-library-starter/issues"
   },
-  "homepage": "https://github.com/krasimir/webpack-library-starter",
+  "homepage": "https://github.com/Lover103/webpack-library-starter",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
@@ -38,6 +38,9 @@
     "chai": "^4.1.2",
     "eslint": "^4.12.0",
     "eslint-loader": "^1.9.0",
+    "eslint-plugin-html": "^3.2.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-config-airbnb-base": "^11.1.3",
     "mocha": "^4.0.1",
     "webpack": "^3.8.1",
     "yargs": "^10.0.3"

@@ -31,3 +31,7 @@ node_modules
 .vscode
 
 .DS_Store
+
+lib
+
+package-lock.json
